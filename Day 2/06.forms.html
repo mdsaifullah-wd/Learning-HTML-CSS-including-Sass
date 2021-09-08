@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="#">
+    <!-- Text input -->
+    <div>
+      <label for="firstName">First name</label><br>
+      <input type="text" id="firstName" name="firstName" value="" placeholder="Enter first name"><br>
+      <label for="lastName">Last name</label><br>
+      <input type="text" id="lastName" name="lastName" value="" placeholder="Enter last name">
+    </div>
+    <!-- Email -->
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" name="email" id="email" value="" placeholder="Enter email address">
+    </div>
+    <!-- Date -->
+    <div>
+      <label for="birthDate">Birth Date</label><br>
+      <input type="date" name="birthDate" id="birthDate" value="">
+    </div>
+    <!-- Number -->
+    <div>
+      <label for="mobileNumber">Mobile number</label><br>
+      <input type="number" id="mobileNumber" name="mobileNumber" value="" placeholder="Enter mobile number">
+    </div>
+    <!-- Radio -->
+    <div>
+      <label for="sex">Sex</label>
+      <input type="radio" name="sex" id="sex" value="male"> Male
+      <input type="radio" name="sex" id="sex" value="female"> Female
+      <input type="radio" name="sex" id="sex" value="Other"> Other
+    </div>
+    <!-- Checkbox -->
+    <div>
+      <label for="hobby" name="hobby">Hobby</label>
+      <input type="checkbox" name="hobby" id="hobby" value="painting"> Painting
+      <input type="checkbox" name="hobby" id="hobby" value="drumming"> Drumming
+      <input type="checkbox" name="hobby" id="hobby" value="guitarPlaying"> Playing guitar
+    </div>
+    <!-- Select and options -->
+    <div>
+      <label for="pack">Choose your package</label><br>
+      <select name="pack" id="pack">
+        <option value="basic" selected>Basic</option>
+        <option value="premium">Standard</option>
+        <option value="premium">Premium</option>
+      </select>
+    </div>
+    <!-- Password -->
+    <div>
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="password" value="" placeholder="Enter password">
+    </div>
+    <!-- Text area -->
+    <div>
+      <label for="description">Why you want to join us?</label><br>
+      <textarea name="description" id="description" cols="40" rows="5" placeholder="Enter your text here"></textarea>
+    </div>
+    <!-- Submit button using input tag -->
+    <div>
+      <input type="submit" value="Submit">
+    </div><br>
+    <!-- Submit button using buttong tag -->
+    <!-- <div>
+      <button type="submit">Submit</button>
+    </div> -->
+    <!-- Reset button using input tag -->
+    <!-- <div>
+      <input type="reset" value="Reset">
+    </div> -->
+    <!-- Reset button using button tag -->
+    <div>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+</html>
