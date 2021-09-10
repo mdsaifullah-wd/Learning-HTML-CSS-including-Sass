@@ -1,0 +1,22 @@
+body {
+    background-color:#3c496a ;
+    color: #a8aebd;
+}
+
+article {
+    background-color: #27355a;
+    padding: 15px;
+    border: 1px #525d7a solid;
+    margin: 15px;
+}
+a {
+    color: #a8aebd;
+}
+/* 
+
+Below are three types that we mostly use:
+color name:- color: red;
+color code (hexa):- color: #525d7a;
+rgb value:- color: rgb(0, 0, 255) 
+
+*/

@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+#effect1 {
+    font-weight:bold;
+}
+body p span {
+    font-style: italic;
+    color: #333;
+}
