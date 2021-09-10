@@ -1,0 +1,30 @@
+/* Element Selectors */
+body {
+    background-color: #333;
+  }
+
+  /* . is for classes */
+.art {
+    padding: 20px;
+    border: 1px lavender solid;
+
+}
+/* # is for IDs */
+#primary-heading {
+    color:green;
+}
+#welcome {
+    background-color: lightgray;
+}
+#about {
+    background-color: lightsteelblue;
+}
+
+/* Multiple Selectors */
+#welcome, #about {
+    margin: 15px;
+}
+/* Nested Selectors */
+#welcome p {
+    font-size: 18px;
+}

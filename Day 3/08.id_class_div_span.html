@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>id, class, div and span</title>
+  <style>
+    .background {
+        border: 1px solid rgba(204, 204, 204, 0.315);
+        background: #c2c8ca;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: rgba(245, 245, 33, 0.856);
+        background-color:black;
+      }
+      #footer {
+        border: 1px solid rgba(204, 204, 204, 0.315);
+        background: #0e1c20;
+        color: white;
+        padding: 5px;
+        margin-bottom: 5px;
+      }
+  </style>
+</head>
+<body>
+  <!-- This page is for practicing id and classes in different sections of the page and doing some CSS styling with these id and classes. Although using id and classes for defining sections is not recommended for actual web designing. We can use HTML semantic tags alternatively (so far I know). -->
+
+  <!-- Main Header -->
+  <div id="main-header" class="background">
+    <h1>My website</h1>
+    <p>Lorem ipsum dolor  omnis sequi perspiciatis</p>
+  </div>
+
+  <!--Main navigation bar  -->
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  
+  <!-- About -->
+  <!-- <div id="about">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magnam 
+       itaque dolor ab reprehenderit, maxime culpa aliquam corporis cupiditate non 
+       alias fugit iure illum ea perferendis! Illum, praesentium tempore.</p>
+  </div> -->
+
+  <!-- Main part of the page -->
+  <div id="main">
+    <!-- Articles -->
+    <div class="background">
+      <h2>Article 1 Heading</h2>
+      <p>Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum <span class="enhance">Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit</span> amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+      </p>
+      <a href="#">Read more...</a>
+    </div>
+
+    <div class="background">
+      <h2>Article 2 Heading</h2>
+      <p>Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+        Lorem ipsum Lorem ipsum dolor sit amet consectet
+      </p>
+      <a href="#">Read more...</a>
+    </div>
+
+  </div>
+
+  <!-- Aside -->
+  <div id="aside">
+
+  </div>
+
+  <!-- Contact -->
+  <!-- <div id="contact">
+    <h4>Contact info</h4>
+    <ul>
+      <li>Md Saif Ullah</li>
+      <li>Phone: +8801859229595</li>
+      <li>Email: mdsaifullah.wd@gmail.com</li>
+    </ul>
+  </div> -->
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>&copy; Md Saif Ullah</p>
+  </div>
+</body>
+</html>
