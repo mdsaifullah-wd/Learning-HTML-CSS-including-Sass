@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4c6ca0;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #f4f4f4;
+    background: #446190;
+}
+.btn:active {
+    color: white;
+    background-color: rgb(2, 10, 43);
+}
+/* .btn:visited {
+    color: red;
+    background-color: #333;
+} */

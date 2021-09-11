@@ -1,0 +1,20 @@
+#nav li {
+    display: inline;
+}
+#nav li a {
+    padding-right: 10px;
+}
+
+#nature {
+    display: block;
+    margin: auto;
+}
+
+.box {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 32.9%;
+    border: blue solid 1px;
+    display: inline-block;
+}
