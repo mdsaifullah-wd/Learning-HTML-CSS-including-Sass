@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+/* Utility Classes */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+.marked {
+    color: #93cb52;
+}
+.l-heading {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.m-heading {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.s-heading {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+.large {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding: 2rem 0;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    background-color: #93cb52;
+}
+.btn:hover {
+    background: #78c025;
+}
+
+
+/* Header Section */
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    opacity: 0.95;
+}
+#main-header #logo {
+    display: flex;
+}
+#main-header #logo i {
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+#main-header #logo h1 {
+    font-size: 1.5rem;
+}
+#main-header ul {
+    flex-basis: 25%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+#main-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+}
+#main-header ul li a:hover {
+    background-color: #93cb52;
+}
+
+
+/* Cover Section */
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+/* What-We-Do Section */
+#what {
+    height: 100%;
+    background:#f4f4f4;
+    color: #333;
+    padding: 2rem 0;
+}
+#what h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+#what .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#what .container .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#what .container .box .icon {
+    background: #93cb52;
+    border-radius: 100%;
+    flex:1;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Who-We-Are Section */
+
+#who {
+    height: 100%;
+    background: #333;
+    display: flex;
+}
+#who .box {
+    flex: 1;
+}
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#who .who-info {
+    padding: 1.5rem;
+    color: #fff;
+}
+#who .who-info p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+#who .who-info ul li {
+    padding: 0.5rem 0;
+    border-bottom: #555 dotted 1px;
+}
+
+
+/* Our-Clients Section */
+#clients {
+    height: 100%;
+    padding: 1rem 0;
+
+}
+#clients h2 {
+    text-align: center;
+}
+#clients .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#clients .container img {
+    flex: 1;
+    width: 3rem;
+    padding: 2vw;
+}
+
+
+/* Contact Section */
+
+#contact {
+    height: 100%;
+    display: flex;
+}
+#contact .contact-form {
+    flex: 1;
+    background-color: #93cb52;
+    color: #fff;
+    padding: 2.5rem 2rem;
+}
+#contact .contact-form form {
+    padding: 0.5rem;
+    
+}
+#contact .contact-form form .form-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+#contact .contact-form form .form-group {
+    margin: 0.5rem;
+}
+#contact .contact-form form .form-group input,
+#contact .contact-form form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact .contact-form button {
+    width: 100%;
+    padding: 0.5rem 0;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#contact .contact-form button:hover {
+    background: #78c025;
+}
+#contact .contact-map {
+    flex: 2;
+}
+
+
+
+/* Footer Section */
+
+#main-footer {
+    background: #333;
+    height: 6rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
