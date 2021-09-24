@@ -1,0 +1,59 @@
+/* Variables */
+:root {
+  /* Container */
+  --container-max: 960px;
+  /* Header */
+  --header-bg-color: #333;
+  --header-txt-color: #fff;
+  --header-txt-align: center;
+  /* Box */
+  --box-bg-color: steelblue;
+  --box-txt-color: #fff;
+  --box-1-width: 2;
+  --box-2-width: 3;
+  --box-shadow-h-offset: 10px;
+  --box-shadow-v-offset: 5px;
+  --box-shadow-blur: 5px;
+  --box-shadow-color: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background: #f4f4f4;
+}
+
+header {
+  /* --header-bg-color: green; */
+  background-color: var(--header-bg-color);
+  color: var(--header-txt-color);
+  text-align: var(--header-txt-align);
+}
+
+.container {
+  display: flex;
+  max-width: var(--container-max);
+  margin: auto;
+}
+
+.box {
+  padding: 1rem;
+  background: var(--box-bg-color);
+  color: var(--box-txt-color);
+  margin: 1rem;
+  box-shadow: var(--box-shadow-h-offset) var(--box-shadow-v-offset)
+    var(--box-shadow-blur) var(--box-shadow-color);
+}
+
+.box-1 {
+  flex: var(--box-1-width);
+}
+
+.box-2 {
+  flex: var(--box-2-width);
+}
