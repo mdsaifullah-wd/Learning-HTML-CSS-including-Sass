@@ -1,0 +1,28 @@
+/* if div is a direct parent of p */
+div > p {
+  background-color: #ddd;
+}
+
+/* if p is right after div */
+div + p {
+  background: #333;
+  color: #fff;
+}
+
+/* if p is preceded by a ul with same parent */
+ul ~ p {
+  background: #ff0000;
+  color: #fff;
+}
+
+/* Target attribute */
+a[target] {
+  background: red;
+  color: white;
+}
+
+/* Target specific attribute value */
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+}
