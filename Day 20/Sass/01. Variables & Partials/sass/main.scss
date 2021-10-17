@@ -1,0 +1,6 @@
+@import 'partials/variables';
+@import 'partials/reset';
+body {
+    background: $primary-color;
+    color: $light-color;
+}

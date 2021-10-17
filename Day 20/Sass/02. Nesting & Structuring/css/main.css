@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: #161b21;
+  color: #e4e4e4;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.section p {
+  padding: 0.5rem 0;
+  text-align: justify;
+}
+
+.section-a {
+  background: orchid;
+  color: #161b21;
+}
+
+.section-b {
+  background: skyblue;
+  color: #161b21;
+}
+
+.btn-dark, .btn-light {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.btn-dark {
+  background: #161b21;
+  color: #e4e4e4;
+}
+
+.btn-dark:hover {
+  --webkit-transform: $property;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  background: #35414f;
+}
+
+.btn-light {
+  background: #e4e4e4;
+  color: #161b21;
+}
+
+.btn-light:hover {
+  --webkit-transform: $property;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  background: #bebebe;
+}

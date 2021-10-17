@@ -1,0 +1,72 @@
+@import 'partials/variables';
+@import 'partials/reset';
+@import 'partials/functions';
+@import 'partials/mixins';
+
+header {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+    padding: 1rem;
+    
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.section {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    ;
+
+    h2 {
+        text-align: center;
+    }
+    p {
+        padding: 0.5rem 0;
+        text-align: justify;
+    }
+    &-a {
+        background: orchid;
+        color: set-text-color(orchid)
+    }
+    &-b {
+        background: skyblue;
+        color: set-text-color(skyblue)
+    }
+}
+
+%btn-shared {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    transition: transform 1s;
+}
+.btn {
+    &-dark {
+        @extend %btn-shared;
+        background: $dark-color;
+        color: set-text-color($dark-color);
+        &:hover {
+            @include transform(translateY(5px));
+            background: lighten($dark-color, 15%);
+        }
+    }
+    &-light {
+        @extend %btn-shared;
+        background: $light-color;
+        color: set-text-color($light-color);
+        &:hover {
+            @include transform(translateY(5px));
+            background: darken($light-color, 15%);
+        }
+    }
+    
+}
